@@ -12,6 +12,14 @@ redirect_from:
 Education
 ======
 * B.S. in electrical engineering, Brigham Young University, April 2026 (Expected)
+  * Current GPA: 3.99
+
+Recent Academic Coursework
+======
+* Calculus and ODEs
+* Computer systems / networking
+* Data structures (C++)
+* Intro to Digital Design (FPGA)
 
 Work experience
 ======
@@ -36,11 +44,13 @@ Skills
   
 Service and leadership
 ======
+* 2022 - current : member of the ECE Ambassadors program at BYU
+  * Service includes peer mentoring and guidance for incoming undergraduates seeking to learn about ECE at BYU
 * 2019 - 2021 : served as a representative of the Church of Jesus Christ of Latter-Day Saints
-  * served leader in both Botswana and Mississippi, leading teams of 10 or more volunteers performing upwards of 700 service hours per week
+  * served as a leader in both Botswana and Mississippi, leading teams of 10 or more volunteers performing upwards of 700 service hours per week
   * spent time as an intermediary between the LDS Church and the government of Botswana to help acquire visas for incoming volunteers
   * Developed public speaking and leadership skills
 
 Awards
 ======
-Recipient of 1st place in the 2019 Aerospace Corporation's Robert H. Herndon Science competition for our team's design of a protoype CubeSat bus. 
+1st place in the 2019 Aerospace Corporation's Robert H. Herndon Science competition for our team's design of a protoype CubeSat bus. 
