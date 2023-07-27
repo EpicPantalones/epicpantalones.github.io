@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Electrical Engineering CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,6 +8,9 @@ redirect_from:
 ---
 
 {% include base_path %}
+Download PDF
+======
+* ![PDF of my CV here](/files/cv.pdf)
 
 Education
 ======
