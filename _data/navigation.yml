@@ -2,9 +2,9 @@
 main:
   - title: "Projects"
     url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
     
   - title: "CV"
     url: /cv/
+
+  - title: "Photo Gallery"
+    url: /year-archive/
