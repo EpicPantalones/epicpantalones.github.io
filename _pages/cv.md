@@ -8,7 +8,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-* ![PDF of my CV here](/files/EthanSorensenResume2-23.pdf)
 * <a href="/files/EthanSorensenResume2-23.pdf" download>Click to Download</a>
 
 
