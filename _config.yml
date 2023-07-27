@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ethan Sorensen"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Ethan Sorensen"
 description              : &description "Undergrad at BYU studying EE and avid photographer and rock climber."
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Ethan Sorensen"
   avatar           : "profile.png"
-  bio              : "electrical engineer and adventurer"
+  bio              : "Avid electrical engineer and adventurer"
   location         : "Provo, Utah"
   employer         :
   pubmed           : 
@@ -93,13 +93,13 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           : "https://www.flickr.com/photos/146137040@N06/"
-  facebook         : "https://www.facebook.com/ethan.sorensen13/"
+  flickr           : "photos/146137040@N06/"
+  facebook         : "ethan.sorensen13"
   foursquare       :
-  github           : "https://github.com/EpicPantalones"
+  github           : "EpicPantalones"
   google_plus      :
   keybase          :
-  instagram        : "@ethan__sorensen"
+  instagram        : "ethan__sorensen"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
