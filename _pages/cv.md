@@ -49,6 +49,7 @@ Service and leadership
 * 2019 - 2021 : served as a representative of the Church of Jesus Christ of Latter-Day Saints
   * served as a leader in both Botswana and Mississippi, leading teams of 10 or more volunteers performing upwards of 700 service hours per week
   * spent time as an intermediary between the LDS Church and the government of Botswana to help acquire visas for incoming volunteers
+  * Created a Google Scripts based service tp provide statistical records and analysis for an organization of over 250 volunteers
   * Developed public speaking and leadership skills
 
 Awards
