@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 Download PDF
 ======
-* ![PDF of my CV here](/files/cv.pdf)
+* ![PDF of my CV here](/files/EthanSorensenResume2-23.pdf)
 
 Education
 ======
