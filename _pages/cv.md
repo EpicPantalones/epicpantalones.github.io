@@ -11,49 +11,36 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in electrical engineering, Brigham Young University, April 2026 (Expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* May 2023 - current: DCID Technical Intern
+  * The Aerospace Corporation
+  * Duties included: ---
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* May 2022 - May 2023: xLab Technical Intern
+  * The Aerospace Corporation
+  * Duties included: ---
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* IPC certifications in J-STD-001 (soldering and inspection) and IPC-620D (wires and harnessing)
+* Knowldege of Mentor Graphics' PADS Designer and PADS Library Tools
+* Well versed in IoT devices such as Arduino, Rasberry Pi 
+* Proficient in both Windows and Linux environments
+* Programming language proficiencies:
+  * C / C++, Python, SystemVerilog, VHDL
+* Language proficiencies:
+  * English and conversational spanish 
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* 2019 - 2021 : served as a representative of the Church of Jesus Christ of Latter-Day Saints
+  * served leader in both Botswana and Mississippi, leading teams of 10 or more volunteers performing upwards of 700 service hours per week
+  * spent time as an intermediary between the LDS Church and the government of Botswana to help acquire visas for incoming volunteers
+  * Developed public speaking and leadership skills
+
+Awards
+======
+Recipient of 1st place in the 2019 Aerospace Corporation's Robert H. Herndon Science competition for our team's design of a protoype CubeSat bus. 
