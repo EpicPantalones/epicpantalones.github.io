@@ -7,10 +7,11 @@ tags:
   - academics
 ---
 
+[![Watch the video](https://i9.ytimg.com/vi_webp/3ynuqXaLbuQ/mqdefault.webp?sqp=COS0l6YG&rs=AOn4CLCTOel8fXFy2Wr-bB_nspFVQPd7gw)](https://youtu.be/3ynuqXaLbuQ) \
+
 ECEn 240 Light Following Robot
 ======
-[![Watch the video](https://i9.ytimg.com/vi_webp/3ynuqXaLbuQ/mqdefault.webp?sqp=COS0l6YG&rs=AOn4CLCTOel8fXFy2Wr-bB_nspFVQPd7gw)](https://youtu.be/3ynuqXaLbuQ) \
-_This is a simple video I posted as a part of my final submission for the project._
+_Above is a simple video I posted as a part of my final submission for the project._
 
 Throughout the course of ECEn 220, Circuits, we developed an understanding of both passive and active basic elements of circuitry, including resistors, capacitors, inductors, diodes, op-amps, and transitors. We studied how those pieces worked together to create almost all the circuitry that we see today. This lab project was an accompaniment to that class, where we build a light following robot using our knowledge of those respective elements. It was not only fun, but gave me concrete examples of how those elements worked in a real setting. The code is running on an Arduino nano in Arduino IDE's C++.
 
