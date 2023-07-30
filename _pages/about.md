@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Hello There!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,6 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-<a href="/files/EthanSorensenResume.pdf" download>Click here to download my resume</a>
+![Cover Photo](/images/sand.png)
 
-My name is Ethan Sorensen. I'm a third year student at BYU studying electrical engineering. When I'm not in the lab or working on a personal project, I love to be out with family and friends, or lost in the woods somewhere. Take a look at some my __Projects__ tab to see what I'm passionate about, and take a look at my __Photo Gallery__ tab to learn more about me as a person.
+My name is Ethan Sorensen. I'm from Los Angeles, California, currently in my third year at BYU studying electrical engineering. When I'm not in the lab or working on a personal project, I love to be with family and friends, and/or lost in the mountains somewhere! This website is an opportunity for me to share a bit about myself and my skills, as well as posting my personal story.
+
+
+To see the professional me, look in my __Projects__ tab to see where my skills lie and what I'm currently working on. You can find a list of my skills and download link in the __Resume__ tab.
+
+
+Also take a look at my __Blog__ tab to learn more about me as a person and see my hobbies and adventures!

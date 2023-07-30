@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
-* <a href="/files/EthanSorensenResume.pdf" download>Click here to download a copy</a>
 
+* <a href="/files/EthanSorensenResume.pdf" download>Download a (condensed) copy</a>
 
 Education
 ======
