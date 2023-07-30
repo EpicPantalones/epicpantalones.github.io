@@ -36,6 +36,8 @@ Work experience
 Skills
 ======
 * IPC certifications in J-STD-001 (soldering and inspection) and IPC-620D (wires and harnessing)
+   * [Click here to view my J-STD cert](https://www.esorensen.dev/images/JSTD.jpeg)
+   * [Click here to view my 620-D cert](https://www.esorensen.dev/files/620D.jpeg)
 * Knowldege of Mentor Graphics' PADS Designer and PADS Library Tools
 * Well versed in IoT devices such as Arduino, Rasberry Pi 
 * Proficient in both Windows and Linux environments
