@@ -38,13 +38,13 @@ Skills
 * IPC certifications in J-STD-001 (soldering and inspection) and IPC-620D (wires and harnessing)
    * [Click here to view my J-STD cert](https://www.esorensen.dev/images/JSTD.jpeg)
    * [Click here to view my 620-D cert](https://www.esorensen.dev/images/620D.jpeg)
-* Knowldege of Mentor Graphics' PADS Designer and PADS Library Tools
-* Well versed in IoT devices such as Arduino, Rasberry Pi 
 * Proficient in both Windows and Linux environments
+* Well versed in IoT devices such as Arduino, Rasberry Pi 
+* Knowledge of Siemens' PADS Designer and PADS Library Tools
 * Programming language proficiencies:
   * C / C++, Python, SystemVerilog, VHDL
 * Language proficiencies:
-  * English and conversational spanish 
+  * English, Spanish 
   
 Service and leadership
 ======
@@ -53,8 +53,8 @@ Service and leadership
 * 2019 - 2021 : served as a representative of the Church of Jesus Christ of Latter-Day Saints
   * served as a leader in both Botswana and Mississippi, leading teams of 10 or more volunteers performing upwards of 700 service hours per week
   * spent time as an intermediary between the LDS Church and the government of Botswana to help acquire visas for incoming volunteers
-  * Created a Google Scripts based service tp provide statistical records and analysis for an organization of over 250 volunteers
-  * Developed public speaking and leadership skills
+  * Created a Google Scripts based service which provided statistical records and analysis for an organization of over 250 volunteers
+  * Developed and practiced public speaking and leadership skills in a wide variety of situations
 
 Awards
 ======
