@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "About Me"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Ethan Sorensen"
 description              : &description "Undergrad at BYU studying EE and avid photographer and rock climber."
