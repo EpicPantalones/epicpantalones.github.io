@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Electrical Engineering CV"
+title: "Education and Experience"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,20 +11,17 @@ redirect_from:
 
 * <a href="/files/EthanSorensenResume.pdf" download>Download a (condensed) copy</a>
 
-Education
-======
+__Education__
 * B.S. in electrical engineering, Brigham Young University, April 2026 (Expected)
   * Current GPA: 3.99
 
-Recent Academic Coursework
-======
+__Recent Academic Coursework__
 * Calculus and ODEs
 * Computer systems / networking
 * Data structures (C++)
 * Intro to Digital Design (FPGA)
 
-Work experience
-======
+__Work Experience__
 * May 2023 - current: DCID Technical Intern
   * The Aerospace Corporation
   * Duties included: ---
@@ -33,21 +30,18 @@ Work experience
   * The Aerospace Corporation
   * Duties included: ---
   
-Skills
-======
-* IPC certifications in J-STD-001 (soldering and inspection) and IPC-620D (wires and harnessing)
-   * [Click here to view my J-STD cert](https://www.esorensen.dev/images/JSTD.jpeg)
-   * [Click here to view my 620-D cert](https://www.esorensen.dev/images/620D.jpeg)
-* Proficient in both Windows and Linux environments
-* Well versed in IoT devices such as Arduino, Rasberry Pi 
-* Knowledge of Siemens' PADS Designer and PADS Library Tools
+__Skills__
+* IPC certifications in [J-STD-001](https://www.esorensen.dev/images/JSTD.jpeg) and [IPC 620-D](https://www.esorensen.dev/images/620D.jpeg)
+* Adept in both Windows and Linux environments
+* Experienced in IoT devices such as Arduino or Rasberry Pi 
+* Proficient with Siemens' PADS Designer and PADS Library Tools
 * Programming language proficiencies:
-  * C / C++, Python, SystemVerilog, VHDL
+  * Python, C/C++, SystemVerilog, VHDL
 * Language proficiencies:
   * English, Spanish 
+* Strong communication and public speaking abilities
   
-Service and leadership
-======
+__Service and Leadership__
 * 2022 - current : member of the ECE Ambassadors program at BYU
   * Service includes peer mentoring and guidance for incoming undergraduates seeking to learn about ECE at BYU
 * 2019 - 2021 : served as a representative of the Church of Jesus Christ of Latter-Day Saints
@@ -56,6 +50,5 @@ Service and leadership
   * Created a Google Scripts based service which provided statistical records and analysis for an organization of over 250 volunteers
   * Developed and practiced public speaking and leadership skills in a wide variety of situations
 
-Awards
-======
+__Acheivements and Awards__
 1st place in the 2019 Aerospace Corporation's Robert H. Herndon Science competition for our team's design of a protoype CubeSat bus. 

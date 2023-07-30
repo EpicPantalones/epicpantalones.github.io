@@ -1,5 +1,5 @@
 ---
-title: "Light Sensing Robot and RFID Tag"
+title: "Light Sensing Robot and RFID Tagger"
 excerpt: "Coursework Project (2021) <br/><img src='/images/lab6-thumbnail.png'>"
 collection: portfolio
 ---

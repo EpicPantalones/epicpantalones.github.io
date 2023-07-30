@@ -10,10 +10,8 @@ redirect_from:
 
 ![Cover Photo](/images/sand.png)
 
-My name is Ethan Sorensen. I'm from Los Angeles, California, currently in my third year at BYU studying electrical engineering. When I'm not in the lab or working on a personal project, I love to be with family and friends, and/or lost in the mountains somewhere! This website is an opportunity for me to share a bit about myself and my skills, as well as posting my personal story.
+My name is Ethan Sorensen. Originally from Los Angeles, California, I am currently in my third year of pursuing a degree in electrical engineering at BYU in Provo, Utah. When I'm not in the lab or working on personal projects, you can usually find me pursuing my hobbies as a photographer, rock climber, and backpacker! This website is an opportunity for me to share a bit about myself both professionally and personally.
 
+To learn more about my professional skills, look in my __Projects__ tab to see my favorite things I've done and what I enjoy doing the most. You can find a full list of my skills in the __Resume__ tab.
 
-To see the professional me, look in my __Projects__ tab to see where my skills lie and what I'm currently working on. You can find a list of my skills and download link in the __Resume__ tab.
-
-
-Also take a look at my __Blog__ tab to learn more about me as a person and see my hobbies and adventures!
+To get to know me better personally, feel free to look at my __Blog__ tab to learn more about my stories and adventures! You can also view some of my best photos on my Flickr account and on my Instagram, both of which are linked on the left.
