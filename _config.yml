@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Ethan Sorensen"
-description              : &description "Undergrad at BYU studying EE and avid photographer and rock climber."
+description              : &description "Undergrad at BYU studying EE; avid mountaineer / adventurer."
 url                      : "https://www.esorensen.dev" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "epicpantalones.github.io"
@@ -84,7 +84,7 @@ author:
   avatar           : "profile_new.jpeg"
   bio              : "Avid engineering student and adventurer"
   location         : "Lives in Provo, Utah"
-  employer         : "works for The Aerospace Corp"
+  employer         : "works at Brigham Young University"
   pubmed           : 
   googlescholar    : 
   email            : "ethansorensen01@gmail.com"
@@ -102,7 +102,7 @@ author:
   instagram        : "ethan__sorensen"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "ethan-na-sorensen"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
