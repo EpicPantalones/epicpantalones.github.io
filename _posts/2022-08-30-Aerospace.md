@@ -9,4 +9,6 @@ tags:
 ![Placeholder!](/images/500x300.png)
 
 Summer Internship at xLab!
+
+~This page is still under construction... I promise.~
 ======
