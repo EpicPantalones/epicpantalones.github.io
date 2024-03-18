@@ -14,4 +14,4 @@ My name is Ethan Sorensen. Originally from Los Angeles, California, I am current
 
 To learn more about my professional skills, look in my __Projects__ tab to see my favorite things I've done and what I enjoy doing the most. You can find a full list of my skills in the __Resume__ tab.
 
-To get to know me better personally, feel free to look at my __Blog__ tab to learn more about my stories and adventures! You can also view some of my best photos on my Flickr account and on my Instagram, both of which are linked on the left.
+To get to know me better personally, feel free to look at my __Blog__ tab to learn more about my stories and adventures! You can also view some of my favorite photos on my Flickr account and on my Instagram, both of which are linked on the left.

@@ -1,7 +1,7 @@
 ---
 title: 'Summer Internship at Aerospace's xLab'
 date: 2022-08-30
-permalink: /posts/2022/08/blog-post-3/
+permalink: /posts/2022/08/blog-post-2/
 tags:
   - experience
 ---
