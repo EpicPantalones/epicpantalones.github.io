@@ -10,20 +10,24 @@
   /* default button */
   display: inline-block;
   margin-bottom: 0.25em;
-  padding: 0.5em 1em;
-  color: #fff !important;
+  padding: 0.75em 1.5em;
+  color: $base-bg !important;
   font-family: $sans-serif;
   font-size: $type-size-6;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   text-decoration: none;
-  background-color: $primary-color;
+  background: linear-gradient(135deg, $lavender 0%, $lavender-dark 100%);
   border: 0 !important;
   border-radius: $border-radius;
   cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: $box-shadow;
 
   &:hover {
-    background-color: mix(white, #000, 20%);
+    transform: translateY(-2px);
+    box-shadow: $box-shadow-hover;
+    background: linear-gradient(135deg, $lavender-light 0%, $lavender 100%);
   }
 
   .icon {
@@ -48,30 +52,37 @@
   /* for dark backgrounds */
 
   &--inverse {
-    color: $gray !important;
-    border: 1px solid $light-gray !important; /* override*/
-    background-color: #fff;
+    color: $base-text !important;
+    border: 2px solid $base-surface-alt !important; /* override*/
+    background: transparent;
 
     &:hover {
-      color: #fff !important;
-      border-color: $gray;
+      color: $base-text-bright !important;
+      background: $base-surface-alt;
+      border-color: $lavender;
     }
   }
 
   /* light outline */
 
   &--light-outline {
-    border: 1px solid #fff !important; /* override*/
+    border: 2px solid $lavender !important; /* override*/
     background-color: transparent;
+    color: $lavender !important;
+    
+    &:hover {
+      background: $lavender;
+      color: $base-bg !important;
+    }
   }
 
   /* information */
 
   &--info {
-    background-color: $info-color;
+    background: linear-gradient(135deg, $lavender-light 0%, $lavender 100%);
 
     &:hover {
-      background-color: mix(#000, $info-color, 20%);
+      background: linear-gradient(135deg, $lavender-pale 0%, $lavender-light 100%);
     }
   }
 
@@ -88,10 +99,10 @@
   /* success */
 
   &--success {
-    background-color: $success-color;
+    background: linear-gradient(135deg, $sage 0%, $sage-dark 100%);
 
     &:hover {
-      background-color: mix(#000, $success-color, 20%);
+      background: linear-gradient(135deg, $sage-light 0%, $sage 100%);
     }
   }
 

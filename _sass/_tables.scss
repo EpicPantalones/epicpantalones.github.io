@@ -8,7 +8,10 @@ table {
   font-family: $global-font-family;
   font-size: $type-size-6;
   border-collapse: collapse;
-  border: 1px solid $light-gray;
+  border: 2px solid $base-surface-alt;
+  border-radius: $border-radius;
+  overflow: hidden;
+  box-shadow: $box-shadow;
 
   & + table {
     margin-top: 1em;
@@ -16,21 +19,43 @@ table {
 }
 
 thead {
-  background-color: $lighter-gray;
-  border-bottom: 1px solid $light-gray;
+  background: linear-gradient(135deg, $lavender-dark 0%, $lavender 100%);
+  color: $base-bg;
+  border-bottom: 2px solid $lavender;
 }
 
 th {
-  padding: 0.5em;
-  font-weight: bold;
+  padding: 0.75em 1em;
+  font-weight: 700;
   text-align: left;
-  border-right: 1px solid $light-gray;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  
+  &:last-child {
+    border-right: none;
+  }
 }
 
 td {
-  padding: 0.5em;
-  border-bottom: 1px solid $light-gray;
-  border-right: 1px solid $light-gray;
+  padding: 0.75em 1em;
+  background: $base-surface;
+  border-bottom: 1px solid $base-surface-alt;
+  border-right: 1px solid $base-surface-alt;
+  
+  &:last-child {
+    border-right: none;
+  }
+}
+
+tbody tr {
+  transition: background 0.2s ease;
+  
+  &:hover {
+    background: $base-surface-alt;
+  }
+  
+  &:last-child td {
+    border-bottom: none;
+  }
 }
 
 tr, td, th {

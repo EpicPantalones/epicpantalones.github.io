@@ -12,17 +12,20 @@
 
 @mixin notice($notice-color) {
   margin: 2em 0 !important;  /* override*/
-  padding: 1em;
+  padding: 1.5em;
   font-family: $global-font-family;
   font-size: $type-size-6 !important;
   text-indent: initial; /* override*/
-  background-color: mix(#fff, $notice-color, 90%);
+  background: linear-gradient(135deg, rgba($notice-color, 0.15) 0%, rgba($notice-color, 0.05) 100%);
+  border-left: 4px solid $notice-color;
   border-radius: $border-radius;
-  box-shadow: 0 1px 1px rgba($notice-color, 0.25);
+  box-shadow: $box-shadow;
+  color: $base-text;
 
   h4 {
     margin-top: 0 !important; /* override*/
     margin-bottom: 0.75em;
+    color: $notice-color;
   }
 
   @at-root .page__content #{&} h4 {
@@ -45,14 +48,17 @@
 
   a {
     color: $notice-color;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
 
     &:hover {
-      color: mix(#000, $notice-color, 40%);
+      border-bottom-color: $notice-color;
     }
   }
 
   code {
-    background-color: mix(#fff, $notice-color, 95%)
+    background-color: rgba($notice-color, 0.1);
+    color: $notice-color;
   }
 
   ul {
@@ -65,7 +71,7 @@
 /* Default notice */
 
 .notice {
-  @include notice($light-gray);
+  @include notice($base-muted);
 }
 
 /* Primary notice */

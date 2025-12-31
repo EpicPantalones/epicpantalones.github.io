@@ -44,27 +44,50 @@ $type-size-8                : 0.625em;  // ~10px
 
 
 /*
-   Colors
+   Colors - Base2Tone Lavender Dark Theme
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+/* Base2Tone Lavender Dark Palette */
+$base-bg                    : #1b1726;
+$base-bg-alt                : #221d30;
+$base-surface               : #2d2640;
+$base-surface-alt           : #3a304f;
+$base-subtle                : #635786;
+$base-muted                 : #8c7faa;
+$base-text                  : #dad5e8;
+$base-text-bright           : #f0ecf9;
 
-$body-color                 : #ffffff;
-$background-color           : #f5fbfd;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+/* Lavender accent colors */
+$lavender-dark              : #8671b3;
+$lavender                   : #a594d1;
+$lavender-light             : #c5b9e3;
+$lavender-pale              : #e3ddf4;
 
-$primary-color              : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #9f77cd;
+/* Sage accent colors (complementary) */
+$sage-dark                  : #87a995;
+$sage                       : #a5c5b3;
+$sage-light                 : #c1dccf;
+$sage-pale                  : #ddeee5;
+
+/* Apply theme colors */
+$gray                       : $base-muted;
+$dark-gray                  : $base-subtle;
+$darker-gray                : $base-surface-alt;
+$light-gray                 : $base-surface;
+$lighter-gray               : $base-surface-alt;
+
+$body-color                 : $base-bg-alt;
+$background-color           : $base-bg;
+$code-background-color      : $base-surface;
+$code-background-color-dark : $base-surface-alt;
+$text-color                 : $base-text;
+$border-color               : $base-surface-alt;
+
+$primary-color              : $lavender;
+$success-color              : $sage;
+$warning-color              : #d4a574;
+$danger-color               : #d48297;
+$info-color                 : $lavender-light;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -90,11 +113,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$link-color                 : $lavender-light;
+$link-color-hover           : $base-text-bright;
+$link-color-visited         : $lavender;
+$masthead-link-color        : $base-text;
+$masthead-link-color-hover  : $lavender-pale;
 
 
 /*
@@ -146,8 +169,10 @@ $susy: (
    Other
    ========================================================================== */
 
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$border-radius              : 8px;
+$box-shadow                 : 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+$box-shadow-hover           : 0 8px 12px rgba(165, 148, 209, 0.15), 0 4px 8px rgba(0, 0, 0, 0.3);
+$global-transition          : all 0.3s ease-in-out;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;

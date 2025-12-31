@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Ethan Sorensen"
   avatar           : "profile_new.jpeg"
-  bio              : "Avid engineering student and adventurer"
+  bio              : "Senior Electrical Engineering student at Brigham Young University"
   location         : "Lives in Provo, Utah"
-  employer         : "works at Brigham Young University"
+  employer         : "Works for Brigham Young University"
   pubmed           : 
   googlescholar    : 
-  email            : "ethansorensen01@gmail.com"
+  email            : "ethansorensen01@byu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -99,7 +99,7 @@ author:
   github           : "EpicPantalones"
   google_plus      :
   keybase          :
-  instagram        : "ethan__sorensen"
+  instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "ethan-na-sorensen"
@@ -107,13 +107,13 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
+  steam            : "epicpantalones"
   tumblr           :
   twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "EpicPantalones"
   wikipedia        :
 
 

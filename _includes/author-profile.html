@@ -6,18 +6,20 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar">
-    {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}">
-    {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
-    {% endif %}
-  </div>
+  <a href="{{ base_path }}/" class="author__card-link">
+    <div class="author__avatar">
+      {% if author.avatar contains "://" %}
+      	<img src="{{ author.avatar }}" alt="{{ author.name }}" class="avatar-trigger" data-avatar="{{ author.avatar }}">
+      {% else %}
+      	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar avatar-trigger" alt="{{ author.name }}" data-avatar="{{ author.avatar | prepend: "/images/" | prepend: base_path }}">
+      {% endif %}
+    </div>
 
-  <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-  </div>
+    <div class="author__content">
+      <h3 class="author__name">{{ author.name }}</h3>
+      {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    </div>
+  </a>
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
@@ -27,6 +29,9 @@
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
+      {% endif %}
+      {% if author.uri or author.email or author.keybase or author.researchgate or author.twitter or author.facebook or author.google_plus or author.linkedin or author.xing or author.instagram or author.tumblr or author.bitbucket or author.github or author.stackoverflow or author.lastfm or author.dribbble or author.pinterest or author.foursquare or author.steam or author.youtube or author.soundcloud or author.weibo or author.flickr or author.codepen or author.vine or author.googlescholar or author.pubmed or author.orcid or author.impactstory or author.wikipedia %}
+        <li class="author__socials-header">Socials:</li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
@@ -86,7 +91,7 @@
         <li><a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i> Steam</a></li>
       {% endif %}
       {% if author.youtube %}
-        <li><a href="https://www.youtube.com/user/{{ author.youtube }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+        <li><a href="https://www.youtube.com/@{{ author.youtube }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
       {% endif %}
       {% if author.soundcloud %}
         <li><a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud" aria-hidden="true"></i> Soundcloud</a></li>

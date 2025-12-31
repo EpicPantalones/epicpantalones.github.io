@@ -83,21 +83,26 @@
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      color: mix(#fff, $gray, 25%);
-      border: 1px solid $light-gray;
+      color: $base-text;
+      background: $base-surface;
+      border: 1px solid $base-surface-alt;
       border-radius: 0;
+      transition: all 0.2s ease;
 
       &:hover {
-        color: $link-color-hover;
+        color: $lavender-pale;
+        background: $base-surface-alt;
+        border-color: $lavender;
       }
 
       &.current {
-        color: #fff;
-        background: $primary-color;
+        color: $base-bg;
+        background: linear-gradient(135deg, $lavender 0%, $lavender-dark 100%);
+        border-color: $lavender;
       }
 
       &.disabled {
-        color: mix(#fff, $gray, 75%);
+        color: $base-subtle;
         pointer-events: none;
         cursor: not-allowed;
       }
@@ -131,12 +136,18 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: mix(#fff, $gray, 50%);
-    border: 1px solid $light-gray;
+    color: $base-text;
+    background: $base-surface;
+    border: 2px solid $base-surface-alt;
     border-radius: $border-radius;
+    transition: all 0.3s ease;
 
     &:hover {
-      color: $link-color-hover;
+      color: $lavender-pale;
+      background: $base-surface-alt;
+      border-color: $lavender;
+      transform: translateY(-2px);
+      box-shadow: $box-shadow;
     }
 
     &:first-child {
@@ -164,7 +175,7 @@
 .page__comments + .pagination {
   margin-top: 2em;
   padding-top: 2em;
-  border-top: 1px solid $border-color;
+  border-top: 2px solid $base-surface-alt;
 }
 
 
@@ -175,7 +186,7 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: $background-color;
+  background: transparent;
 
   a {
     display: block;
@@ -183,6 +194,7 @@
     padding: 0.5rem 0;
     color: $masthead-link-color;
     text-decoration: none;
+    transition: color 0.2s ease;
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -196,9 +208,14 @@
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: $primary-color;
-    color: #fff;
+    background: linear-gradient(135deg, $lavender 0%, $lavender-dark 100%);
+    color: $base-bg;
     cursor: pointer;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background: linear-gradient(135deg, $lavender-light 0%, $lavender 100%);
+    }
   }
 
   .visible-links {
@@ -231,14 +248,15 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
-        background: mix(#fff, $primary-color, 50%);
+        height: 3px;
+        background: linear-gradient(90deg, $lavender 0%, $lavender-light 100%);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
         -webkit-transform: scaleX(0);
             -ms-transform: scaleX(0);
                 transform: scaleX(0); /* hide*/
+        border-radius: 2px;
       }
 
       &:hover:before {
@@ -255,19 +273,20 @@
     right: 0;
     margin-top: 15px;
     padding: 5px;
-    border: 1px solid $border-color;
+    border: 2px solid $lavender;
     border-radius: $border-radius;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+    background: $base-surface-alt;
+    box-shadow: $box-shadow-hover;
 
     a {
       margin: 0;
       padding: 10px 20px;
       font-size: $type-size-5;
+      transition: all 0.2s ease;
 
       &:hover {
         color: $masthead-link-color-hover;
-        background: mix(#fff, $primary-color, 75%);
+        background: $base-surface;
       }
     }
 
@@ -279,7 +298,7 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: $border-color transparent;
+      border-color: $lavender transparent;
       display: block;
       z-index: 0;
     }
@@ -292,14 +311,14 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: #fff transparent;
+      border-color: $base-surface-alt transparent;
       display: block;
       z-index: 1;
     }
 
     li {
       display: block;
-      border-bottom: 1px solid $border-color;
+      border-bottom: 1px solid $base-surface;
 
       &:last-child {
         border-bottom: none;
@@ -334,13 +353,14 @@
     margin-left: -0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    color: #fff;
+    color: $base-bg;
     font-weight: bold;
-    background: $primary-color;
+    background: linear-gradient(135deg, $lavender 0%, $lavender-dark 100%);
     border-radius: $border-radius;
+    box-shadow: $box-shadow;
 
     &:hover {
-      color: #fff;
+      color: $base-bg;
     }
   }
 }
@@ -361,7 +381,8 @@
   font-size: $type-size-6;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 2px solid $base-surface-alt;
+  color: $lavender-light;
 }
 
 
@@ -371,18 +392,18 @@
 
 .toc {
   font-family: $sans-serif-narrow;
-  color: $gray;
+  color: $base-text;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: #fff;
-  border: 1px solid $border-color;
+  background: $base-surface;
+  border: 2px solid $base-surface-alt;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    color: $base-bg;
     font-size: $type-size-6;
-    background: $primary-color;
+    background: linear-gradient(135deg, $lavender 0%, $lavender-dark 100%);
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
@@ -398,15 +419,16 @@
   a {
     display: block;
     padding: 0.5rem 1rem;
-    color: $gray;
+    color: $base-text;
     font-size: $type-size-7;
     font-weight: bold;
     line-height: 1.5;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid $base-surface-alt;
+    transition: all 0.2s ease;
 
     &:hover {
-      color: #000;
-      background: $lighter-gray;
+      color: $lavender-pale;
+      background: $base-surface-alt;
     }
   }
 

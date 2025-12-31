@@ -12,26 +12,37 @@
 
   @include clearfix();
   margin-bottom: 1em;
+  background: $base-surface;
+  padding: 2em 1.5em;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  border: 1px solid $base-surface-alt;
+  min-width: 0;
+  overflow-wrap: break-word;
 
   @include breakpoint($large) {
     @include span(2 of 12);
     opacity: 1;
-    -webkit-transition: opacity 0.2s ease-in-out;
-            transition: opacity 0.2s ease-in-out;
+    -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
 
     &:hover {
       opacity: 1;
+      box-shadow: $box-shadow-hover;
+      transform: translateY(-2px);
     }
   }
 
 
   @include breakpoint($x-large) {
-    padding-right: 0;
+    padding-right: 1.5em;
   }
 
   h2, h3, h4, h5, h6 {
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
+    margin-top: 0;
     font-family: $sans-serif-narrow;
+    color: $lavender-light;
   }
 
   h3, h4 {
@@ -41,7 +52,8 @@
   p, li {
     font-family: $sans-serif;
     font-size: $type-size-6;
-    line-height: 1.5;
+    line-height: 1.7;
+    word-wrap: break-word;
   }
 
   img {
@@ -85,10 +97,19 @@
   img {
     max-width: 175px;
     border-radius: 50%;
+    border: 3px solid $lavender;
+    box-shadow: 0 4px 12px rgba(165, 148, 209, 0.3);
+    transition: all 0.3s ease;
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px solid $border-color;
+      background: $base-surface-alt;
+    }
+    
+    &:hover {
+      border-color: $lavender-light;
+      box-shadow: 0 6px 16px rgba(165, 148, 209, 0.5);
+      transform: scale(1.05);
     }
   }
 }
@@ -98,31 +119,63 @@
   vertical-align: top;
   padding-left: 15px;
   padding-right: 25px;
-  line-height: 1;
+  line-height: 1.5;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  min-width: 0;
 
   @include breakpoint($large) {
     display: block;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    margin-top: 1em;
+    min-width: 0;
+  }
+}
+
+.author__card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  
+  &:hover {
+    text-decoration: none;
+    opacity: 0.9;
+    
+    .author__name {
+      color: $lavender-light;
+    }
+  }
+  
+  &:visited {
+    color: inherit;
   }
 }
 
 .author__name {
   margin: 0;
+  word-wrap: break-word;
 
   @include breakpoint($large) {
-    margin-top: 10px;
+    margin-top: 0;
     margin-bottom: 10px;
   }
 }
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
+  font-weight: 600;
 }
 
 .author__bio {
   margin: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  min-width: 0;
+  max-width: 100%;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -165,11 +218,11 @@
   margin-top: 15px;
   padding: 10px;
   list-style-type: none;
-  border: 1px solid $border-color;
+  border: 2px solid $lavender;
   border-radius: $border-radius;
-  background: #fff;
+  background: $base-surface-alt;
   z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  box-shadow: $box-shadow-hover;
   cursor: default;
 
   @include breakpoint($large) {
@@ -191,7 +244,7 @@
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: $border-color transparent;
+    border-color: $lavender transparent;
     z-index: 0;
 
     @include breakpoint($large) {
@@ -208,7 +261,7 @@
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: #fff transparent;
+    border-color: $base-surface-alt transparent;
     z-index: 1;
 
     @include breakpoint($large) {
@@ -217,21 +270,42 @@
   }
 
   li {
-    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    
+    &.author__socials-header {
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+      padding-left: 12px;
+      font-weight: 600;
+      font-size: $type-size-6;
+      color: $lavender-light;
+      letter-spacing: 0.5px;
+    }
   }
 
   a {
     display: block;
     margin-bottom: 5px;
+    padding: 8px 12px;
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: inherit;
+    color: $base-text;
+    background: $base-surface;
     font-size: $type-size-5;
     text-decoration: none;
+    border-radius: 4px;
+    border-left: 3px solid transparent;
+    transition: all 0.2s ease;
 
     &:hover {
-      text-decoration: underline;
+      color: $lavender-pale;
+      background: $base-surface-alt;
+      border-left-color: $lavender;
+      transform: translateX(4px);
+      text-decoration: none;
     }
   }
 }
