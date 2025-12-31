@@ -16,7 +16,11 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# WDM IS A GARBAGE GEM THAT SHOULDNT EVER BE INCLUDED
+# gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+# Fix for timezone data on Windows
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
