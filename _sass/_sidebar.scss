@@ -283,6 +283,19 @@
       color: $lavender-light;
       letter-spacing: 0.5px;
     }
+    
+    // Style for location and employer (non-link items)
+    &:not(:has(a)):not(.author__socials-header) {
+      padding: 8px 12px;
+      padding-right: 5px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      color: $base-text-bright;
+      
+      i {
+        color: $lavender;
+      }
+    }
   }
 
   a {

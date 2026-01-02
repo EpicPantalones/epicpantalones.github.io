@@ -1,0 +1,178 @@
+/* ==========================================================================
+   ABOUT PAGE HERO SECTION
+   ========================================================================== */
+
+.about-hero {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 2.5em;
+  margin-bottom: 2em;
+  margin-left: -0.75em;
+  margin-right: -0.75em;
+  padding-bottom: 0;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  
+  &__avatar {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    
+    img {
+      display: block;
+      width: auto;
+      height: 100%;
+      max-height: 250px;
+      border-radius: 50%;
+      border: 4px solid $lavender;
+      box-shadow: 0 8px 20px rgba(165, 148, 209, 0.4);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      aspect-ratio: 1;
+      object-fit: cover;
+      
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 12px 28px rgba(165, 148, 209, 0.6);
+        border-color: $lavender-light;
+      }
+    }
+  }
+  
+  &__content {
+    flex: 1;
+    min-width: 0;
+    
+    h1 {
+      margin-top: 0;
+      margin-bottom: 0.75em;
+      font-size: $type-size-2;
+      color: $lavender-pale;
+    }
+    
+    p {
+      margin: 0;
+      font-size: $type-size-5;
+      line-height: 1.7;
+      color: $base-text-bright;
+      
+      a {
+        color: $lavender-light;
+        text-decoration: none;
+        border-bottom: 2px solid $lavender-dark;
+        transition: all 0.2s ease;
+        
+        &:hover {
+          color: $lavender-pale;
+          border-bottom-color: $lavender-pale;
+        }
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+   SECTION DIVIDER
+   ========================================================================== */
+
+.section-divider {
+  margin: 2em 0;
+  border-bottom: 2px solid $lavender-dark;
+}
+
+/* ==========================================================================
+   PHOTO SCROLL SECTION
+   ========================================================================== */
+
+.photo-scroll-section {
+  margin: 0 0 2em 0;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  width: 100vw;
+  overflow: hidden;
+}
+
+.photo-scroll-container {
+  width: 100%;
+  position: relative;
+  
+  &[data-animated="true"] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, transparent, $base-bg 10%, $base-bg 90%, transparent);
+    mask: linear-gradient(90deg, transparent, $base-bg 10%, $base-bg 90%, transparent);
+  }
+  
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    z-index: 2;
+    pointer-events: none;
+  }
+  
+  &::before {
+    left: 0;
+    background: linear-gradient(to right, $base-bg, transparent);
+  }
+  
+  &::after {
+    right: 0;
+    background: linear-gradient(to left, $base-bg, transparent);
+  }
+}
+
+.photo-scroll-track {
+  display: flex;
+  gap: 10px;
+  
+  .photo-scroll-container[data-animated="true"] & {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--scroll-speed, 40s) linear infinite;
+  }
+  
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+// Speed control via CSS custom properties
+.photo-scroll-container[data-speed="fast"] {
+  --scroll-speed: 20s;
+}
+
+.photo-scroll-container[data-speed="slow"] {
+  --scroll-speed: 80s;
+}
+
+.photo-scroll-item {
+  flex-shrink: 0;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+    z-index: 10;
+  }
+  
+  img {
+    height: 100%;
+    width: auto;
+    display: block;
+    object-fit: cover;
+  }
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 5px));
+  }
+}

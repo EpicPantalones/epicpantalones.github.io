@@ -1,6 +1,6 @@
 ---
 title: "SuperKey: BYU sponsored custom keyboard design!"
-excerpt: "A custom keyboard designed to fit just right. <br/><img src='/images/keyboard_layout.png'>"
+excerpt: "A custom keyboard designed to fit just right. <br/><img src='/images/portfolio/keyboard_layout.png'>"
 collection: portfolio
 ---
 

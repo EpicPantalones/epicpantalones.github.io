@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Education and Experience"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -153,8 +153,8 @@ redirect_from:
     <div class="cv-skill-category">
       <h4>Certifications</h4>
       <ul>
-        <li><a href="https://www.esorensen.dev/images/JSTD.jpeg">IPC J-STD-001</a></li>
-        <li><a href="https://www.esorensen.dev/images/620D.jpeg">IPC 620-D</a></li>
+        <li><a href="https://www.esorensen.dev/images/cv/JSTD.jpeg">IPC J-STD-001</a></li>
+        <li><a href="https://www.esorensen.dev/images/cv/620D.jpeg">IPC 620-D</a></li>
       </ul>
     </div>
   </div>

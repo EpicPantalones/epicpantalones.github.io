@@ -5,12 +5,12 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
-  padding: 2em 1.5em;
+  margin-top: 0;
+  padding: 0 1.5em 9em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
   background: $body-color;
-  border-radius: $border-radius;
+  border-radius: 0;
   box-shadow: $box-shadow;
 
   @include breakpoint($x-large) {
@@ -54,11 +54,11 @@
 
   h2 {
     padding-bottom: 0.5em;
-    border-bottom: 2px solid $base-surface-alt;
-    background: linear-gradient(90deg, $lavender-dark, transparent);
-    padding-left: 0.5em;
-    margin-left: -0.5em;
-    border-radius: 4px;
+    border-bottom: 1px solid rgba(165, 148, 209, 0.3);
+    
+    &:first-of-type {
+      border-bottom: none;
+    }
   }
 
   p, li, dl {

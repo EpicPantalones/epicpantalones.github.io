@@ -58,3 +58,132 @@
     font-weight: 700;
   }
 }
+
+/* ==========================================================================
+   AUTHOR CARD POPUP (Horizontal)
+   ========================================================================== */
+
+.author-card-popup {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 1.5em;
+  margin-top: 0.5em;
+  background: $base-surface;
+  border: 2px solid $lavender;
+  border-radius: $border-radius;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  animation: slideDown 0.3s ease;
+  min-width: 500px;
+  
+  &.active {
+    display: block;
+  }
+  
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    padding: 1.5em;
+  }
+  
+  &__avatar {
+    flex-shrink: 0;
+    
+    img {
+      display: block;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 3px solid $lavender;
+      box-shadow: 0 4px 12px rgba(165, 148, 209, 0.3);
+    }
+  }
+  
+  &__info {
+    flex: 1;
+    min-width: 0;
+  }
+  
+  &__name {
+    margin: 0 0 0.5em;
+    font-size: $type-size-5;
+    font-weight: 700;
+    color: $lavender-pale;
+  }
+  
+  &__bio {
+    margin: 0 0 0.75em;
+    font-size: $type-size-7;
+    color: $base-text;
+    line-height: 1.4;
+  }
+  
+  &__details {
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+    font-size: $type-size-8;
+    color: $base-text-bright;
+    
+    span {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      
+      i {
+        color: $lavender;
+      }
+    }
+  }
+  
+  &__socials {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-flow: column;
+    gap: 0.5em;
+    padding-left: 1.5em;
+    border-left: 2px solid $base-surface-alt;
+    
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: $base-surface-alt;
+      border-radius: 50%;
+      color: $base-text;
+      font-size: $type-size-6;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      border-bottom: none;
+      
+      &:hover {
+        background: $lavender;
+        color: $base-bg;
+        transform: scale(1.1);
+        text-decoration: none;
+        border-bottom: none;
+      }
+      
+      &:visited {
+        color: $base-text;
+        text-decoration: none;
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

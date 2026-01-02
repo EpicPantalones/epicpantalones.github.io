@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "EthaNet"
 title_separator          : "-"
 name                     : &name "Ethan Sorensen"
 description              : &description "Undergrad at BYU studying EE; avid mountaineer & adventurer."
@@ -81,10 +81,10 @@ analytics:
 # Site Author
 author:
   name             : "Ethan Sorensen"
-  avatar           : "profile_new.jpeg"
+  avatar           : "profile/profile_new.jpeg"
   bio              : "Senior Electrical Engineering student at Brigham Young University"
-  location         : "Lives in Provo, Utah"
-  employer         : "Works for Brigham Young University"
+  location         : "Provo, Utah"
+  employer         : "Brigham Young University"
   pubmed           : 
   googlescholar    : 
   email            : "ethansorensen01@byu.edu"
