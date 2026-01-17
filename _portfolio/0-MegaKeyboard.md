@@ -1,6 +1,6 @@
 ---
-title: "SuperKey: BYU sponsored custom keyboard design!"
-excerpt: "A custom keyboard designed to fit just right. <br/><img src='/images/portfolio/keyboard_layout.png'>"
+title: "St8-Key: Reinvent the Wheel"
+excerpt: "An ortholinear split keyboard design <br/><img src='/images/portfolio/keyboard_layout.png'>"
 collection: portfolio
 ---
 

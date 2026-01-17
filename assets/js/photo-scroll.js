@@ -5,10 +5,16 @@ document.addEventListener('DOMContentLoaded', function() {
   if (!track) return;
   
   // Set the number of photos in the scrolling folder
-  const num_photos = 26; // Update this to match the number of photos you have
+  const num_photos = 22; // Update this to match the number of photos you have
   
   // Auto-generate image filenames (photo1.jpg, photo2.jpg, etc.)
   const images = Array.from({ length: num_photos }, (_, i) => `photo${i + 1}.jpg`);
+  
+  // Shuffle the images array randomly
+  for (let i = images.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [images[i], images[j]] = [images[j], images[i]];
+  }
   
   // Populate track with initial images
   images.forEach(filename => {

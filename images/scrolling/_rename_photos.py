@@ -2,12 +2,14 @@
 """
 Auto-rename images in the scrolling folder to photo1, photo2, etc.
 Converts all images to JPG format and resizes to common height to save space.
+Also updates the photo-scroll.js file with the correct photo count.
 Usage: python _rename_photos.py
 
 Requires: pip install Pillow
 """
 
 import os
+import re
 from pathlib import Path
 from PIL import Image
 
@@ -19,6 +21,30 @@ IMAGE_EXTENSIONS = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp'}
 
 # Target height for all images (maintains aspect ratio)
 TARGET_HEIGHT = 400
+
+
+def update_js_photo_count(count):
+    """Update the photo-scroll.js file with the actual photo count."""
+    # Navigate up from images/scrolling to the repo root, then to assets/js
+    js_file = script_dir.parent.parent / 'assets' / 'js' / 'photo-scroll.js'
+
+    if not js_file.exists():
+        print(f"Warning: Could not find {js_file}")
+        return
+
+    # Read the file
+    content = js_file.read_text(encoding='utf-8')
+
+    # Replace the num_photos line
+    updated_content = re.sub(
+        r'const num_photos = \d+;.*',
+        f'const num_photos = {count}; // Auto-updated by _rename_photos.py',
+        content
+    )
+
+    # Write back
+    js_file.write_text(updated_content, encoding='utf-8')
+    print(f"Updated {js_file.name} with photo count: {count}")
 
 
 def rename_photos():
@@ -85,6 +111,10 @@ def rename_photos():
                 temp_file.rename(new_path)
 
     print(f"\nDone! All images resized to {TARGET_HEIGHT}px height.")
+
+    # Update the JavaScript file with the photo count
+    photo_count = len(temp_files)
+    update_js_photo_count(photo_count)
 
 
 if __name__ == "__main__":
