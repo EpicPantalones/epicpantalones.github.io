@@ -32,7 +32,7 @@ While I am proud to say that most, if not quite all, of the written content is g
 
 ## What else is on the EthaNet?
 
-The entirety of this website is a hodge-podge collection of stuff in the category "things I had time to do." Most of them are technical in some form, because I don't really have social media or anything which reflects my personal life. You can see the pages at the top, which show the following sides of me:
+The entirety of this website is a hodge-podge collection of stuff in the category "things I had time to do." Most of them are technical in some form, because I don't have any social media I keep up to date on and I choose not to publish many things about my personal life. You can see the pages at the top, which show the following sides of me:
 
 - My __Professional__ page showcases the official representation of me. It has my up-to-date resume, active coursework and experience, and a full list of my skills.
 - If you want to see what I'm *really* capable of, you might look at the  __Nerd__ page to what I actually spend my technical free time on.

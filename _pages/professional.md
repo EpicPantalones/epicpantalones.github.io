@@ -1,8 +1,8 @@
 ---
-layout: archive
+layout: splash
 title: "Professional"
 permalink: /professional/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
   - /cv

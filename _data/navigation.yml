@@ -1,12 +1,12 @@
 # main links links
 main:
-  - title: "Resume"
-    url: /cv/
+  - title: "Professional"
+    url: /professional/
 
-  - title: "Projects"
-    url: /portfolio/
+  - title: "Nerd"
+    url: /technical/
   
-  - title: "Blog"
-    url: /year-archive/
+  - title: "Personal"
+    url: /personal/
 
 

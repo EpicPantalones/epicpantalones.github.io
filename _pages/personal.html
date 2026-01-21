@@ -1,0 +1,56 @@
+---
+layout: splash
+title: "Personal"
+permalink: /personal/
+author_profile: false
+redirect_from:
+  - /year-archive
+  - /year-archive/
+---
+
+{% include base_path %}
+
+{% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+{% assign hero_post = sorted_posts.first %}
+{% assign remaining_posts = sorted_posts | offset: 1 %}
+
+<!-- Hero Post -->
+{% if hero_post %}
+<article class="hero-post">
+  {% if hero_post.header.teaser %}
+    <div class="hero-post__image" style="background-image: url('{{ hero_post.header.teaser | prepend: "/images/" | prepend: base_path }}');">
+      <div class="hero-post__overlay"></div>
+      <div class="hero-post__content">
+        <h2 class="hero-post__title">
+          <a href="{{ base_path }}{{ hero_post.url }}" rel="permalink">{{ hero_post.title }}</a>
+        </h2>
+        {% if hero_post.date %}
+          <p class="hero-post__meta">{{ hero_post.date | date: "%B %d, %Y" }}</p>
+        {% endif %}
+        {% if hero_post.excerpt %}
+          <p class="hero-post__excerpt">{{ hero_post.excerpt | markdownify | strip_html | truncate: 200 }}</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+</article>
+{% endif %}
+
+<!-- Magazine Grid -->
+<div class="magazine-grid">
+  {% for post in remaining_posts %}
+    {% assign post_index = forloop.index %}
+    {% assign size_class = "" %}
+    
+    {% assign mod_result = post_index | modulo: 3 %}
+    {% if mod_result == 1 or mod_result == 2 %}
+      {% assign size_class = "magazine-grid__item--large" %}
+    {% else %}
+      {% assign size_class = "magazine-grid__item--small" %}
+    {% endif %}
+    
+    <div class="magazine-grid__item {{ size_class }}">
+      {% include archive-single.html type="magazine" %}
+    </div>
+  {% endfor %}
+</div>
