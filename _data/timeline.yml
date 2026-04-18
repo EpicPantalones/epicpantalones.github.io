@@ -1,0 +1,79 @@
+# Experience Timeline Data
+# Dates should be in YYYY-MM-DD format
+# image is optional
+
+timeline_config:
+  start_year: 2019
+  end_year: 2026
+  title: "Career Timeline"
+
+events:
+  - title: "Missionary Service"
+    description: "Served as a leader in Botswana and Mississippi with teams of 10+ volunteers. Created statistical systems for 250+ volunteers."
+    start_date: 2019-01-01
+    end_date: 2021-08-31
+    image: "/images/timeline/missionary.jpg"
+    type: "service"
+
+  - title: "High School Graduation"
+    description: "Started my journey in electrical engineering"
+    start_date: 2019-06-01
+    end_date: 2019-06-01
+    image: "/images/timeline/hs-grad.jpg"
+    type: "milestone"
+
+  - title: "xLab Technical Intern"
+    description: "Worked on PADS Designer library management and PCB development. Assisted in GSE equipment development and soldering."
+    start_date: 2022-05-01
+    end_date: 2023-05-31
+    image: "/images/timeline/xlab.jpg"
+    type: "work"
+
+  - title: "Aerospace DCID Internship"
+    description: "Developed Starlink detection using RANSAC regression for non-cooperative PNT. Created GPS-SBF receiver pipeline."
+    start_date: 2023-05-01
+    end_date: 2023-08-31
+    image: "/images/timeline/aerospace-dcid.jpg"
+    type: "work"
+
+  - title: "Research Assistant - Neuroscience"
+    description: "Signal processing and pattern analysis of brainwave data for seizure research using MATLAB."
+    start_date: 2023-01-01
+    end_date: 2023-04-30
+    image: "/images/timeline/neuro-research.jpg"
+    type: "work"
+
+  - title: "BYU Research Assistant"
+    description: "Multi-protocol sensor network hardware design, embedded firmware development, wireless security research."
+    start_date: 2023-01-01
+    end_date: 2026-04-30
+    image: "/images/timeline/byu-research.jpg"
+    type: "work"
+
+  - title: "Teaching Assistant"
+    description: "Taught intro to computer systems covering C, Linux, and x86 assembly programming."
+    start_date: 2023-09-01
+    end_date: 2026-04-30
+    image: "/images/timeline/teaching.jpg"
+    type: "work"
+
+  - title: "ECE Ambassadors Program"
+    description: "Peer mentoring for incoming ECE undergraduates at BYU."
+    start_date: 2022-01-01
+    end_date: 2023-12-31
+    image: "/images/timeline/ambassadors.jpg"
+    type: "service"
+
+  - title: "IEEE Aerospace Publication"
+    description: "Position and Navigation Using Starlink - Published research with team."
+    start_date: 2024-03-01
+    end_date: 2024-03-01
+    image: "/images/timeline/ieee.jpg"
+    type: "milestone"
+
+  - title: "BYU Graduation"
+    description: "B.S. in Electrical Engineering, GPA: 3.93"
+    start_date: 2026-04-01
+    end_date: 2026-04-01
+    image: "/images/timeline/byu-grad.jpg"
+    type: "milestone"

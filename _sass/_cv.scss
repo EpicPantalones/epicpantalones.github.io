@@ -4,11 +4,11 @@
 
 .cv-download {
   text-align: center;
-  margin: 1.5em 0 2em;
+  margin: 0.75em 0 1.5em;
   
   .btn {
-    font-size: $type-size-5;
-    padding: 0.75em 1.5em;
+    font-size: $type-size-6;
+    padding: 0.5em 1em;
   }
 }
 
@@ -16,7 +16,7 @@
   margin-bottom: 2em;
   
   &__title {
-    font-size: $type-size-4;
+    font-size: $type-size-2;
     color: $lavender-pale;
     margin-bottom: 1em;
     padding-bottom: 0.4em;

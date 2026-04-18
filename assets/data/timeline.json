@@ -1,0 +1,89 @@
+{
+  "timeline_config": {
+    "start_year": 2019,
+    "end_year": 2026,
+    "title": "Career Timeline"
+  },
+  "events": [
+    {
+      "title": "Missionary Service",
+      "description": "For two years after graduating high school, I served full time as a missionary for the Church of Jesus Christ of Latter-day Saints. During that time, I led groups of missionaries in both Botswana and the United States, teaching classes and organizing service projects.",
+      "start_date": "2019-08-01",
+      "end_date": "2021-07-16",
+      "image": "/images/timeline/africa.jpg",
+      "image_caption": "One of the most memorable moments of my time in Africa was when I lived in Botswana's Chobe National Park. During that time, classes and lessons I held were often interrupted by all kinds of wildlife, including the elephant pictured here. We of course welcomed him to join us, but he was surprisingly skittish.",
+      "type": "service"
+    },
+    {
+      "title": "1st Place at RHMSC",
+      "description": "Senior year of high school, my team won 1st place at the Robert H. Herndon Memorial Science Competition for our design of an open-source cubesat bus, designed to allow universities to easily build and launch their own cubesats.",
+      "start_date": "2019-05-10",
+      "end_date": "2019-05-10",
+      "image": "/images/timeline/nubesat.jpg",
+      "image_caption": "One of the last surviving photos of our cubesat prototype, Nubesat, during one of the earlier frame testing stages. My job focused on the frame and system integrations, hence why I still have some pictures of the aluminum and carbon fiber frame we made.",
+      "type": "project"
+    },
+    {
+      "title": "xLab Technical Intern",
+      "description": "Worked on PADS Designer library management and PCB development. Assisted in GSE equipment development and soldering.",
+      "start_date": "2022-05-01",
+      "end_date": "2023-05-31",
+      "image": "/images/timeline/xlab.jpg",
+      "image_caption": "A photo of me working on a PCB for my JSTD soldering certification. This summer served as a great jumping off point for the rest of the projects and research I would do later in my college career. I'm not sure how useful I was in a technical design role, but I focused on listening and showing, and gained an immense amount of knowledge and skills that have served me well for many years now.",
+      "type": "internship"
+    },
+    {
+      "title": "Aerospace DCID Internship",
+      "description": "Developed Starlink detection using RANSAC regression for non-cooperative PNT. Created GPS-SBF receiver pipeline.",
+      "start_date": "2023-05-01",
+      "end_date": "2023-08-31",
+      "image": "/images/timeline/dcid.jpg",
+      "image_caption": "A photo of me being the designated \"dunk tank guy\" during Aerospace's Nation Intern Day. This was one of my favorite moments working at Aerospace; that summer was great for both my professional and personal growth. It's also the summer I learned that I was interested in research, which changed my career path!",
+      "type": "internship"
+    },
+    {
+      "title": "BYU Research Assistant",
+      "description": "Multi-protocol sensor network hardware design, embedded firmware development, wireless security research.",
+      "start_date": "2024-01-02",
+      "end_date": "present",
+      "image": "/images/timeline/philthan.jpg",
+      "image_caption": "Me imitating the profile of my research advisor (along with all my lab mates) for Halloween. Research is important, but so is choosing good advisors, having a sense of humor, and having fun while you're still in school. I am grateful to have found such a great advisor and research group to work with.",
+      "type": "career"
+    },
+    {
+      "title": "Teaching Assistant",
+      "description": "Taught intro to computer systems covering C, Linux, and x86 assembly programming.",
+      "start_date": "2023-09-05",
+      "end_date": "present",
+      "image": "/images/timeline/ecen224.png",
+      "image_caption": "This is the landing page for ECEN 224, the class I work with. Check out the course materials here:<br><a href=\"https://byu-cpe.github.io/ecen224/\" target=\"_blank\">https://byu-cpe.github.io/ecen224/</a>",
+      "type": "career"
+    },
+    {
+      "title": "ECE Ambassadors Program",
+      "description": "I was president of the ECE Ambassadors program at BYU for two years. Our mission was to promote the ECE department and provide support to current and prospective students. We organized events, created outreach materials, and mentored prospective and current students.",
+      "start_date": "2023-09-01",
+      "end_date": "2025-04-15",
+      "image": "/images/timeline/ambassador.png",
+      "image_caption": "A flyer from one of the ECE Ambassadors program events held at BYU in 2024. At these events, we encouraged students to ask questions and get to know the faculty and staff in the ECE department, which helped them get research positions, discover classes they were interested in, and find their place in the department.",
+      "type": "service"
+    },
+    {
+      "title": "IEEE Aerospace Publication",
+      "description": "<p>This was my first contribution to the research world, a paper that I helped write during my internship at Aerospace's DCID in 2023. It was published in the IEEE Aerospace Conference in 2024.</p><p><strong>Abstract:</strong></p><p>The world relies on accurate and reliable navigation made possible by GNSS. There is significant interest in expanding the range of signals that can be used for navigation in case the traditional GNSS sources are unavailable. The proliferated communications satellite constellations are particularly interesting because of they offer unparalleled level of resilience. The Starlink satellites transmit a wideband signal at power levels much higher than GPS and provide worldwide coverage. This paper provides new experimental results that demonstrate positioning with better than 100m accuracy using only Starlink downlink signal.These are the first published results that take advantage of the full downlink signal. A low-gain antenna is used to capture signals from a 30-degree cone that includes many Starlinks at any time. Unlike previously published work, we process all the in-view satellites rather than pointing at just one. Not only does this approach...</p>",
+      "start_date": "2024-03-02",
+      "end_date": "2024-03-02",
+      "image": "/images/timeline/starlink.png",
+      "image_caption": "Link to our publication:<br><a href=\"https://ieeexplore-ieee-org.byu.idm.oclc.org/document/10521263\" target=\"_blank\">https://ieeexplore-ieee-org.byu.idm.oclc.org/document/10521263</a><br>DOI: 10.1109/AERO58975.2024.10521263",
+      "type": "publication"
+    },
+    {
+      "title": "BYU B.S. Graduation",
+      "description": "So close I can taste it...",
+      "start_date": "2026-04-24",
+      "end_date": "2026-04-24",
+      "image": "",
+      "type": "milestone"
+    }
+  ]
+}

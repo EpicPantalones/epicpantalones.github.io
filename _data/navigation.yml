@@ -1,6 +1,6 @@
-# main links links
+# main links
 main:
-  - title: "Professional"
+  - title: "My Life"
     url: /professional/
 
   - title: "Nerd"
@@ -8,5 +8,8 @@ main:
   
   - title: "Personal"
     url: /personal/
+
+  - title: "Download CV"
+    url: /files/EthanSorensenResume.pdf
 
 
