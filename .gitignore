@@ -2,4 +2,4 @@ _site/
 vendor/
 .bundle/
 
-images/scrolling/*.jpg
+# images/scrolling/*.jpg
