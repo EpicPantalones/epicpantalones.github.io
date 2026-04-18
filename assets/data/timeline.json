@@ -15,7 +15,7 @@
       "type": "service"
     },
     {
-      "title": "1st Place at RHMSC",
+      "title": "Took 1st Place at RHMSC",
       "description": "Senior year of high school, my team won 1st place at the Robert H. Herndon Memorial Science Competition for our design of an open-source cubesat bus, designed to allow universities to easily build and launch their own cubesats.",
       "start_date": "2019-05-10",
       "end_date": "2019-05-10",
@@ -24,7 +24,7 @@
       "type": "project"
     },
     {
-      "title": "xLab Technical Intern",
+      "title": "First Internship: Aerospace's xLab",
       "description": "Worked on PADS Designer library management and PCB development. Assisted in GSE equipment development and soldering.",
       "start_date": "2022-05-01",
       "end_date": "2023-05-31",
@@ -33,7 +33,7 @@
       "type": "internship"
     },
     {
-      "title": "Aerospace DCID Internship",
+      "title": "Aerospace 2.0: DCID Intern",
       "description": "Developed Starlink detection using RANSAC regression for non-cooperative PNT. Created GPS-SBF receiver pipeline.",
       "start_date": "2023-05-01",
       "end_date": "2023-08-31",
@@ -42,7 +42,7 @@
       "type": "internship"
     },
     {
-      "title": "BYU Research Assistant",
+      "title": "Joined BYU's NET Lab as an RA",
       "description": "Multi-protocol sensor network hardware design, embedded firmware development, wireless security research.",
       "start_date": "2024-01-02",
       "end_date": "present",
@@ -51,7 +51,7 @@
       "type": "career"
     },
     {
-      "title": "Teaching Assistant",
+      "title": "Began My Teaching Career",
       "description": "Taught intro to computer systems covering C, Linux, and x86 assembly programming.",
       "start_date": "2023-09-05",
       "end_date": "present",
@@ -71,18 +71,28 @@
     {
       "title": "IEEE Aerospace Publication",
       "description": "<p>This was my first contribution to the research world, a paper that I helped write during my internship at Aerospace's DCID in 2023. It was published in the IEEE Aerospace Conference in 2024.</p><p><strong>Abstract:</strong></p><p>The world relies on accurate and reliable navigation made possible by GNSS. There is significant interest in expanding the range of signals that can be used for navigation in case the traditional GNSS sources are unavailable. The proliferated communications satellite constellations are particularly interesting because of they offer unparalleled level of resilience. The Starlink satellites transmit a wideband signal at power levels much higher than GPS and provide worldwide coverage. This paper provides new experimental results that demonstrate positioning with better than 100m accuracy using only Starlink downlink signal.These are the first published results that take advantage of the full downlink signal. A low-gain antenna is used to capture signals from a 30-degree cone that includes many Starlinks at any time. Unlike previously published work, we process all the in-view satellites rather than pointing at just one. Not only does this approach...</p>",
-      "start_date": "2024-03-02",
-      "end_date": "2024-03-02",
+      "start_date": "2024-03-03",
+      "end_date": "2024-03-03",
       "image": "/images/timeline/starlink.png",
       "image_caption": "Link to our publication:<br><a href=\"https://ieeexplore-ieee-org.byu.idm.oclc.org/document/10521263\" target=\"_blank\">https://ieeexplore-ieee-org.byu.idm.oclc.org/document/10521263</a><br>DOI: 10.1109/AERO58975.2024.10521263",
       "type": "publication"
+    },
+    {
+      "title": "January 2025: I Got Married!",
+      "description": "",
+      "start_date": "2025-01-26",
+      "end_date": "2025-01-26",
+      "image": "/images/timeline/wedding.jpg",
+      "image_caption": "One of my favorite pictures from my wedding, featuring my wife and I about to go to town on endless pies.",
+      "type": "PERSONAL"
     },
     {
       "title": "BYU B.S. Graduation",
       "description": "So close I can taste it...",
       "start_date": "2026-04-24",
       "end_date": "2026-04-24",
-      "image": "",
+      "image": "/images/timeline/graduate.png",
+      "image_caption": "That's right. I DO look this good.",
       "type": "milestone"
     }
   ]

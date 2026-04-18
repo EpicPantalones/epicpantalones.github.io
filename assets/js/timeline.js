@@ -56,7 +56,7 @@ function initializeTimeline(timelineData, track, detailsPanel) {
       // Restore previous selection or show default
       if (selectedEvent) {
         updateDetails(selectedEvent, detailsPanel);
-      } else if (index === 0) {
+      } else if (index === events.length - 1) {
         updateDetails(event, detailsPanel);
       }
     });
@@ -71,9 +71,9 @@ function initializeTimeline(timelineData, track, detailsPanel) {
     }, 0);
   }
   
-  // Show first event by default
+  // Show most recent event by default
   if (events.length > 0) {
-    updateDetails(events[0], detailsPanel);
+    updateDetails(events[events.length - 1], detailsPanel);
   }
 }
 
