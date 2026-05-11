@@ -17,7 +17,9 @@
   &__avatar {
     flex-shrink: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 1.5em;
     
     img {
       display: block;
@@ -73,12 +75,136 @@
 }
 
 /* ==========================================================================
+   SOCIAL LINKS
+   ========================================================================== */
+
+.social-links {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: $lavender-dark;
+  color: $base-text-bright;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.2em;
+  
+  &:hover {
+    background-color: $lavender;
+    color: $base-bg;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(165, 148, 209, 0.4);
+  }
+}
+
+/* ==========================================================================
+   PUBLICATION SECTION
+   ========================================================================== */
+
+.publication-item {
+  display: flex;
+  gap: 1.5em;
+  margin-bottom: 2.5em;
+  padding: 0.75em 1em;
+  background-color: $base-bg-alt;
+  border-radius: 4px;
+}
+
+.publication-image {
+  flex-shrink: 0;
+  
+  img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 2px solid $lavender-dark;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      border-color: $lavender;
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(165, 148, 209, 0.4);
+    }
+  }
+}
+
+.publication-content {
+  flex: 1;
+  
+  h3 {
+    margin: 0 0 0.25em 0;
+    font-size: $type-size-4;
+    
+    a {
+      color: $lavender-light;
+      text-decoration: none;
+      transition: color 0.2s ease;
+      
+      &:hover {
+        color: $lavender-pale;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.publication-authors {
+  margin: 0 !important;
+  font-size: $type-size-6;
+  color: $base-text-bright;
+}
+
+.publication-venue {
+  margin: 0 !important;
+  font-size: $type-size-6;
+  color: $base-text;
+}
+
+.publication-link {
+  display: inline-block;
+  margin-top: 0.5em;
+  color: $lavender-light;
+  text-decoration: none;
+  border-bottom: 2px solid $lavender-dark;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    color: $lavender-pale;
+    border-bottom-color: $lavender-pale;
+  }
+}
+
+/* ==========================================================================
    SECTION DIVIDER
    ========================================================================== */
 
 .section-divider {
   margin: 2em 0;
   border-bottom: 2px solid $lavender-dark;
+}
+
+/* Publications section heading */
+.page__content > h2:nth-of-type(1) {
+  padding-top: 1.5em;
+  border-top: 2px solid $lavender-dark;
+  margin-top: 2em;
+}
+
+/* Other things section heading - no border */
+.page__content > h2:nth-of-type(2) {
+  border-bottom: none !important;
 }
 
 /* ==========================================================================

@@ -14,7 +14,8 @@ layout: compress
   <body>
 
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    {%- comment -%}Navigation ribbon hidden for single landing page{%- endcomment -%}
+    {%- comment -%}{% include masthead.html %}{%- endcomment -%}
 
     {{ content }}
 

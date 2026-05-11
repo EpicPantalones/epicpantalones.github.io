@@ -1,15 +1,5 @@
 # main links
-main:
-  - title: "My Life"
-    url: /professional/
-
-  - title: "Nerd"
-    url: /technical/
-  
-  - title: "Personal"
-    url: /personal/
-
-  - title: "Download CV"
-    url: /files/EthanSorensenResume.pdf
+# Navigation links commented out for single landing page
+main: []
 
 
