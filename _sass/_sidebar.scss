@@ -81,6 +81,13 @@
    Author profile and links
    ========================================================================== */
 
+/* Hide author profile box */
+.sidebar .author__avatar,
+.sidebar .author__content,
+.sidebar .author__urls-wrapper {
+  display: none;
+}
+
 .author__avatar {
   display: table-cell;
   vertical-align: top;
