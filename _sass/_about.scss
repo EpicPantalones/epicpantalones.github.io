@@ -106,6 +106,33 @@
   }
 }
 
+.social-link-cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75em;
+  width: 90%;
+  padding: 0.75em 1.0em;
+  border-radius: 50px;
+  background-color: $lavender-dark;
+  color: $base-text-bright;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1em;
+  font-weight: 500;
+  
+  i {
+    font-size: 1.1em;
+  }
+  
+  &:hover {
+    background-color: $lavender;
+    color: $base-bg;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(165, 148, 209, 0.4);
+  }
+}
+
 /* ==========================================================================
    PUBLICATION SECTION
    ========================================================================== */
