@@ -14,19 +14,19 @@ author_profile: false
     <img src="/images/profile/profile_new.jpeg" alt="Ethan Sorensen" class="avatar-trigger" data-avatar="/images/profile/profile_new.jpeg">
     <div class="social-links">
       <a href="https://linkedin.com/in/ethan-na-sorensen" class="social-link" title="LinkedIn">
-        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
       </a>
       <a href="https://github.com/EpicPantalones" class="social-link" title="GitHub">
-        <i class="fab fa-github"></i>
+        <i class="fab fa-fw fa-github" aria-hidden="true"></i>
       </a>
       <a href="https://orcid.org/0009-0000-2671-0703" class="social-link" title="ORCID">
-        <i class="fab fa-orcid"></i>
+        <i class="ai ai-fw ai-orcid" aria-hidden="true"></i>
       </a>
       <a href="/files/EthanSorensenResume.pdf" class="social-link" title="Download CV">
-        <i class="fas fa-file-pdf"></i>
+        <i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>
       </a>
       <a href="https://www.flickr.com/photos/146137040@N06/" class="social-link" title="Flickr">
-        <i class="fab fa-flickr"></i>
+        <i class="fab fa-fw fa-flickr" aria-hidden="true"></i>
       </a>
     </div>
   </div>
