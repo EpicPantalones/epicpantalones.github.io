@@ -25,9 +25,6 @@ author_profile: false
       <a href="/files/EthanSorensenResume.pdf" class="social-link" title="Download CV">
         <i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>
       </a>
-      <a href="https://www.flickr.com/photos/146137040@N06/" class="social-link" title="Flickr">
-        <i class="fab fa-fw fa-flickr" aria-hidden="true"></i>
-      </a>
     </div>
   </div>
   <div class="about-hero__content">
