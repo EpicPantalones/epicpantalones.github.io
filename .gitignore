@@ -1,2 +1,6 @@
 _site/
-
+vendor/
+.bundle/
+.venv/
+# images/scrolling/*.jpg
+.jekyll-metadata

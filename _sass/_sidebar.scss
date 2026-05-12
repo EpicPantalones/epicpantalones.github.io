@@ -81,6 +81,13 @@
    Author profile and links
    ========================================================================== */
 
+/* Hide author profile box */
+.sidebar .author__avatar,
+.sidebar .author__content,
+.sidebar .author__urls-wrapper {
+  display: none;
+}
+
 .author__avatar {
   display: table-cell;
   vertical-align: top;
@@ -282,6 +289,19 @@
       font-size: $type-size-6;
       color: $lavender-light;
       letter-spacing: 0.5px;
+    }
+    
+    // Style for location and employer (non-link items)
+    &:not(:has(a)):not(.author__socials-header) {
+      padding: 8px 12px;
+      padding-right: 5px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      color: $base-text-bright;
+      
+      i {
+        color: $lavender;
+      }
     }
   }
 

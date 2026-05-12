@@ -34,10 +34,16 @@
 @import "archive";
 @import "sidebar";
 @import "cv";
+@import "timeline";
+@import "about";
 @import "avatar-lightbox";
 
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/regular";
 @import "vendor/font-awesome/brands";
+
+@import url("academicons.css");
+
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
