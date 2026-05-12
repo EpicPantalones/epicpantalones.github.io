@@ -22,13 +22,11 @@ author_profile: false
       <a href="https://orcid.org/0009-0000-2671-0703" class="social-link" title="ORCID">
         <i class="ai ai-fw ai-orcid" aria-hidden="true"></i>
       </a>
-      <a href="/files/EthanSorensenResume.pdf" class="social-link" title="Download CV">
-        <i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>
-      </a>
-      <a href="https://www.flickr.com/photos/146137040@N06/" class="social-link" title="Flickr">
-        <i class="fab fa-fw fa-flickr" aria-hidden="true"></i>
-      </a>
     </div>
+    <a href="/files/EthanSorensenResume.pdf" class="social-link-cv" title="Download CV">
+      <i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>
+      <span>Download CV</span>
+    </a>
   </div>
   <div class="about-hero__content">
     <h1>Ethan Sorensen</h1>
