@@ -12,7 +12,11 @@ body {
   padding: 0;
   padding-bottom: 0;
   color: $text-color;
-  background: $background-color;
+  background-color: $background-color;
+  background-image: url('data:image/svg+xml;utf8,<svg width="120" height="140" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="rgba(138,113,179,0.25)" stroke-width="1.5"><path d="M 60 10 L 100 35 L 100 85 L 60 110 L 20 85 L 20 35 Z"/><path d="M 60 -50 L 100 -25 L 100 25 L 60 50 L 20 25 L 20 -25 Z"/><path d="M 60 70 L 100 95 L 100 145 L 60 170 L 20 145 L 20 95 Z"/><path d="M 0 40 L 40 15 L 80 40 L 80 90 L 40 115 L 0 90 Z"/><path d="M 120 40 L 160 15 L 200 40 L 200 90 L 160 115 L 120 90 Z"/></g></svg>');
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: 120px 140px;
   font-family: $global-font-family;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
@@ -41,12 +45,12 @@ h1 {
 
 h2 {
   font-size: $type-size-4;
-  color: $lavender-light;
+  color: $lavender-dark;
 }
 
 h3 {
   font-size: $type-size-5;
-  color: $lavender-light;
+  color: $lavender-dark;
 }
 
 h4 {

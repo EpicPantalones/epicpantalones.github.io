@@ -20,7 +20,7 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background: linear-gradient(180deg, $base-surface 0%, $base-surface-alt 100%);
+  background: linear-gradient(180deg, $lavender-light 0%, $lavender-dark 100%);
   border-top: 2px solid $lavender-dark;
   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 
@@ -38,14 +38,14 @@
   }
 
   a {
-    color: $lavender-light;
+    color: #2d1f3d;
     text-decoration: none;
     transition: color 0.2s ease;
 
     &:hover {
-      color: $lavender-pale;
+      color: #1b1726;
       text-decoration: none;
-      border-bottom: 2px solid $lavender-pale;
+      border-bottom: 2px solid #1b1726;
     }
   }
 
@@ -53,11 +53,11 @@
   .fab,
   .far,
   .fal {
-    color: $lavender-light;
+    color: #2d1f3d;
     transition: color 0.2s ease;
     
     &:hover {
-      color: $lavender-pale;
+      color: #1b1726;
     }
   }
 }
