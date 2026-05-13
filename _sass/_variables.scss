@@ -44,18 +44,18 @@ $type-size-8                : 0.625em;  // ~10px
 
 
 /*
-   Colors - Base2Tone Lavender Dark Theme
+   Colors - Base2Tone Lavender Light Theme
    ========================================================================== */
 
-/* Base2Tone Lavender Dark Palette */
-$base-bg                    : #1b1726;
-$base-bg-alt                : #221d30;
-$base-surface               : #2d2640;
-$base-surface-alt           : #3a304f;
-$base-subtle                : #635786;
-$base-muted                 : #8c7faa;
-$base-text                  : #dad5e8;
-$base-text-bright           : #f0ecf9;
+/* Base2Tone Lavender Light Palette */
+$base-bg                    : #f0ecf9;
+$base-bg-alt                : #e3ddf4;
+$base-surface               : #ddeee5;
+$base-surface-alt           : #c5b9e3;
+$base-subtle                : #a594d1;
+$base-muted                 : #8671b3;
+$base-text                  : #3a304f;
+$base-text-bright           : #1b1726;
 
 /* Lavender accent colors */
 $lavender-dark              : #8671b3;
@@ -76,8 +76,8 @@ $darker-gray                : $base-surface-alt;
 $light-gray                 : $base-surface;
 $lighter-gray               : $base-surface-alt;
 
-$body-color                 : $base-bg-alt;
-$background-color           : $base-bg;
+$body-color                 : #ffffff;
+$background-color           : $base-bg-alt;
 $code-background-color      : $base-surface;
 $code-background-color-dark : $base-surface-alt;
 $text-color                 : $base-text;
@@ -113,11 +113,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $lavender-light;
+$link-color                 : $lavender-dark;
 $link-color-hover           : $base-text-bright;
-$link-color-visited         : $lavender;
-$masthead-link-color        : $base-text;
-$masthead-link-color-hover  : $lavender-pale;
+$link-color-visited         : $lavender-dark;
+$masthead-link-color        : $base-text-bright;
+$masthead-link-color-hover  : $lavender-dark;
 
 
 /*
