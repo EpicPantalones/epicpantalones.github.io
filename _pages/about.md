@@ -61,7 +61,7 @@ author_profile: false
 
 ## Other things
 
-- **Lavendar Theme**: I really like purple... This website (as well as my whole Manjaro distro) is themed after [Base2Tone's Lavendar Dark](https://github.com/atelierbram/Base2Tone) theme.
+- **Lavendar Theme**: I really like purple... This website (as well as my whole Manjaro distro) is themed after [Base2Tone's Lavendar](https://github.com/atelierbram/Base2Tone) theme.
 - **Who is EpicPantalones?**: That's also me. I sometimes use my old gamertag as a login, and its connected to enough things that I embrace it at this point.
 
 ## See more about me!

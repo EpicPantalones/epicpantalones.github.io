@@ -240,10 +240,8 @@
    ========================================================================== */
 
 .photo-scroll-section {
-  margin: 0 0 0.5em 0;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
-  width: 100vw;
+  margin: 0 -1.5em 0.5em -1.5em;
+  width: calc(120%);
   overflow: hidden;
 }
 
@@ -253,8 +251,8 @@
   
   &[data-animated="true"] {
     overflow: hidden;
-    -webkit-mask: linear-gradient(90deg, transparent, $base-bg 10%, $base-bg 90%, transparent);
-    mask: linear-gradient(90deg, transparent, $base-bg 10%, $base-bg 90%, transparent);
+    -webkit-mask: linear-gradient(90deg, transparent, $base-bg 5%, $base-bg 95%, transparent);
+    mask: linear-gradient(90deg, transparent, $base-bg 5%, $base-bg 95%, transparent);
   }
   
   &::before,
@@ -263,7 +261,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 100px;
+    width: 50px;
     z-index: 2;
     pointer-events: none;
   }
