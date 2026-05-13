@@ -3,12 +3,6 @@ permalink: /
 author_profile: false
 ---
 
-<div class="photo-scroll-section">
-  <div class="photo-scroll-container" data-speed="slow">
-    <div class="photo-scroll-track" id="photoScrollTrack"></div>
-  </div>
-</div>
-
 <div class="about-hero">
   <div class="about-hero__avatar">
     <img src="/images/profile/profile_new.jpeg" alt="Ethan Sorensen" class="avatar-trigger" data-avatar="/images/profile/profile_new.jpeg">
@@ -69,3 +63,11 @@ author_profile: false
 
 - **Lavendar Theme**: I really like purple... This website (as well as my whole Manjaro distro) is themed after [Base2Tone's Lavendar Dark](https://github.com/atelierbram/Base2Tone) theme.
 - **Who is EpicPantalones?**: That's also me. I sometimes use my old gamertag as a login, and its connected to enough things that I embrace it at this point.
+
+## See more about me!
+
+<div class="photo-scroll-section">
+  <div class="photo-scroll-container" data-speed="slow">
+    <div class="photo-scroll-track" id="photoScrollTrack"></div>
+  </div>
+</div>

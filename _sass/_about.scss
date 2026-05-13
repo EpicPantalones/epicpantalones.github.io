@@ -7,6 +7,7 @@
   flex-direction: row;
   align-items: stretch;
   gap: 2.5em;
+  margin-top: 5em;
   margin-bottom: 2em;
   margin-left: -0.75em;
   margin-right: -0.75em;
@@ -239,7 +240,7 @@
    ========================================================================== */
 
 .photo-scroll-section {
-  margin: 0 0 2em 0;
+  margin: 0 0 0.5em 0;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
   width: 100vw;
